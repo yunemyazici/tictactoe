@@ -19,7 +19,7 @@ def playerInput(board):
     if inp >= 1 and inp <= 9 and board[inp-1] == "-":
         board[inp-1] = currentPlayer
     else:
-        print("you can't do that move!")printboard
+        print("you can't do that move!")
         playerInput(board)
 
 def checkHorizontle(board):
